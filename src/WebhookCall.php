@@ -34,7 +34,7 @@ class WebhookCall
 
         return (new static())
             ->useJob($config['webhook_job'])
-            ->uuid(Str::uuid())
+            ->uuid((string)Str::uuid())
             ->onQueue($config['queue'])
             ->onConnection($config['connection'] ?? null)
             ->useHttpVerb($config['http_verb'])
