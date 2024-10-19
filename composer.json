@@ -2,7 +2,6 @@
     "name": "devaction-labs/laravel-webhook-server",
     "description": "Send webhooks in Laravel apps",
     "keywords": [
-        "spatie",
         "laravel-webhook-server",
         "webhook",
         "server"
@@ -11,9 +10,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Alex Nogueira",
+            "email": "agencia@devaction.com.br",
+            "homepage": "https://devaction.com.br",
             "role": "Developer"
         }
     ],
